@@ -1,0 +1,16 @@
+[project]
+name = "backgammon-stats"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.1",
+    "polars>=1.27.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.7",
+]
